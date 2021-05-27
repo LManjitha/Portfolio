@@ -264,7 +264,7 @@ html{
 }
 
 .projects .title::after{
-    content: "what I done";
+    content: "what I have done";
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -692,7 +692,7 @@ footer span a:hover{
         width: 55%;
     }
 
-    .projects .card img{
+    .projects .carousel .card img{
         height: 400px;
         width: 650px;
         object-fit: cover;
@@ -708,7 +708,7 @@ footer span a:hover{
         padding: 0 50px;
     }
 
-    .projects .card img{
+    .projects .carousel .card img{
         height: 350px;
         width: 550px;
         object-fit: cover;
@@ -820,7 +820,7 @@ footer span a:hover{
     .projects .carousel .card img{
         height: 350px;
         width: 420px;
-        object-fit: cover;
+        /* object-fit: cover; */
         border-radius: 5%;
         border: 5px solid rgb(240, 109, 23);
         transition: all 0.3s ease;
@@ -846,7 +846,7 @@ footer span a:hover{
     .projects .carousel .card img{
         height: 250px;
         width: 350px;
-        object-fit: cover;
+        /* object-fit: cover; */
         border-radius: 5%;
         border: 5px solid rgb(240, 109, 23);
         transition: all 0.3s ease;
@@ -859,5 +859,43 @@ footer span a:hover{
     }
     .home .home-content .text-3{
         font-size: 27px;
+    }
+
+    .projects .carousel .card img{
+        height: 150px;
+        width: 200px;
+        /* object-fit: cover; */
+        border-radius: 5%;
+        border: 5px solid rgb(240, 109, 23);
+        transition: all 0.3s ease;
+    }
+
+    .projects .title::after{
+        font-size: 15px;
+    }
+
+    .projects .card .des{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 300px) {
+    .home .home-content .text-2{
+        font-size: 50px;
+    }
+    .home .home-content .text-3{
+        font-size: 27px;
+    }
+
+    .projects .title::after{
+        font-size: 13px;
+    }
+    .projects .carousel .card img{
+        height: 100px;
+        width: 100px;
+        /* object-fit: cover; */
+        border-radius: 5%;
+        border: 5px solid rgb(240, 109, 23);
+        transition: all 0.3s ease;
     }
 }

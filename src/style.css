@@ -264,7 +264,7 @@ html{
 }
 
 .projects .title::after{
-    content: "what I have done";
+    content: "what I done";
     position: absolute;
     bottom: -12px;
     left: 50%;
